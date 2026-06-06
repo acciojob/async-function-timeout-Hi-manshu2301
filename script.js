@@ -9,4 +9,4 @@ document.getElementById("btn").addEventListener("click",async function(){
 	let delay = Number(document.getElementById("delay").value);
 	await name(delay);
 	document.getElementById("output").innerText = input;
-})
+});
