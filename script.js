@@ -1,6 +1,6 @@
 //your JS code here. If required.
-fucntion name(ms){
-	return new Promise((resolve)=>{
+function name(ms){
+	return new Promise((resolve)=> {
 		setTimeout(resolve,ms);
 	});
 }
