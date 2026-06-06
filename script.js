@@ -5,7 +5,7 @@ function name(ms){
 	});
 }
 document.getElementById("btn").addEventListener("click",async function(){
-	let input = document.getElementById("input").value;
+	let input = document.getElementById("text").value;
 	let delay = Number(document.getElementById("delay").value);
 	await name(delay);
 	document.getElementById("output").innerText = input;
