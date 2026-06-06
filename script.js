@@ -4,7 +4,7 @@ fucntion name(ms){
 		setTimeout(resolve,ms);
 	});
 }
-document.getElementById("btn").addEvenetListener("click",async function(){
+document.getElementById("btn").addEventListener("click",async function(){
 	let input = document.getElementById("input").value;
 	let delay = Number(document.getElementById("delay").value);
 	await name(delay);
